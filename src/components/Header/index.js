@@ -1,7 +1,12 @@
 import React from "react";
 
-import { Container } from "./styles";
+import { Container, Logo } from "./styles";
 
-const Header = () => <Container>Hey</Container>;
+const Header = () => (
+  <Container>
+    <Logo>Facebook</Logo>
+    <nav>Meu Perfil</nav>
+  </Container>
+);
 
 export default Header;
